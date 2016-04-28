@@ -1,12 +1,47 @@
-*.class
+/project/project
+/project/target
+/target
+/out
+.DS_Store
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+### Vagrant ###
+.vagrant/
 
-# Package Files #
-*.jar
-*.war
-*.ear
+### Gradle ###
+.gradle
+build/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+### Ignore Gradle GUI config ###
+gradle-app.setting
+
+### Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored) ###
+!gradle-wrapper.jar
+
+### Cache of project ###
+.gradletasknamecache
+
+### User-specific stuff: ###
+.idea/workspace.xml
+.idea/modules/
+.idea/modules.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+### Sensitive or high-churn files: ###
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+### Gradle: ###
+.idea/gradle.xml
+.idea/libraries
+
+### Mongo Explorer plugin: ###
+.idea/mongoSettings.xml
+
+### File-based project format: ###
+*.ipr
+*.iws
+
